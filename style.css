@@ -36,7 +36,7 @@
 
 a, .title-secondary {
     font-size: 18px;
-    color: #bfc2c6;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ button {
     text-align: center;
     width: 175px;
     font-size: 18px;
-    color: #636466;
+    color: #797a7d;
 }
 
 .info-image {
@@ -115,5 +115,33 @@ button {
     height: 175px;
     width: 175px;
     border-radius: 10px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 120px 0px;
+}
+
+.quote-box {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.signature {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-right: 10%;
 }
 

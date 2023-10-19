@@ -4,6 +4,11 @@
     font-family: sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .section-one {
     display: flex;
     background-color: #1F2937;
@@ -172,6 +177,14 @@ button {
 }
 
 .action-heading, .action-para{
+    color: #E5E7EB;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #1F2937;
     color: #E5E7EB;
 }
 
